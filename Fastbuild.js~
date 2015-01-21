@@ -1,9 +1,9 @@
 /*
     Fastbuild.js
     By:panda_2134
-    Developing version 0.13
+    Developing version 0.131
     Update(s):
-    Repaired a "fantastic" bug
+    Small changes
     2015/1/21
 */
 var builder=471;
@@ -12,8 +12,8 @@ var s_brick_h=473;
 ModPE.setItem(builder,"paper",0,"Builder");
 ModPE.setItem(fountain,"map_filled",0,"Fountain Builder");
 ModPE.setItem(s_brick_h,"map_filled",0,"Stone Brick House Builder");
-Item.addShapedRecipe(builder,1,0,["   ","iri","ipi"],["i",265,0,"r",331,0,"p",339,0]);
-Item.addShapedRecipe(fountain,1,0,[" w ","rbr","sss"],["w",325,8,"r",331,0,"b",builder,0,"s",1,0]);
+Item.addShapedRecipe(builder,1,0,[" p ","w w"," p "],["w",5,0,"p",339,0]);
+Item.addShapedRecipe(fountain,1,0,[" s "," b "," w "],["w",325,8,"b",builder,0,"s",98,0]);
 Item.addShapedRecipe(s_brick_h,1,0,["fbf","bub","fbf"],["f",85,0,"b",98,0,"u",builder,0]);
 Player.addItemCreativeInv(builder,1,0);
 Player.addItemCreativeInv(fountain,1,0);
