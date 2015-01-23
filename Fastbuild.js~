@@ -1,9 +1,9 @@
 /*
     Fastbuild.js
     By:panda_2134
-    Developing version 0.131
+    Developing version 0.14
     Update(s):
-    Small changes
+    Changed Crafting Recipes
     2015/1/21
 */
 var builder=471;
