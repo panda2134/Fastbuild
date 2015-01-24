@@ -1,11 +1,12 @@
 /*
     Fastbuild.js
     By:panda_2134
-    Developing version 0.14
+    Developing version 0.141
     Update(s):
     Changed Crafting Recipes
-    2015/1/21
+    2015/1/24
 */
+
 var builder=471;
 var fountain=472;
 var s_brick_h=473;
@@ -13,7 +14,7 @@ ModPE.setItem(builder,"paper",0,"Builder");
 ModPE.setItem(fountain,"map_filled",0,"Fountain Builder");
 ModPE.setItem(s_brick_h,"map_filled",0,"Stone Brick House Builder");
 Item.addShapedRecipe(builder,1,0,[" p ","w w"," p "],["w",5,0,"p",339,0]);
-Item.addShapedRecipe(fountain,4,0,[" s "," b "," w "],["w",325,8,"b",builder,0,"s",98,0]);
+Item.addShapedRecipe(fountain,12,0,[" s "," b "," w "],["w",325,8,"b",builder,0,"s",98,0]);
 Item.addShapedRecipe(s_brick_h,1,0,["fbf","bub","fbf"],["f",85,0,"b",98,0,"u",builder,0]);
 Player.addItemCreativeInv(builder,1,0);
 Player.addItemCreativeInv(fountain,1,0);
